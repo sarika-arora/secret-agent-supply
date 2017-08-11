@@ -1,5 +1,5 @@
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
@@ -8,16 +8,29 @@ body {
 
 header {
   display: inline-flex;
-  height: 90px;
+  height: 2.32rem;
   background-color: black;
   width: 100%;
-}
-
-.logo {
-  padding: 20px 20px 30px 180px;
-}
-
-.logo span {
   color: white;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  display: flex;
+
+}
+
+.container img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+
+}
+
+.container span {
+  height: 1rem;
   align-items: center;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
 }
