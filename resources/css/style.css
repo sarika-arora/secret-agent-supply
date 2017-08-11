@@ -1,0 +1,23 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  display: inline-flex;
+  height: 90px;
+  background-color: black;
+  width: 100%;
+}
+
+.logo {
+  padding: 20px 20px 30px 180px;
+}
+
+.logo span {
+  color: white;
+  align-items: center;
+}
