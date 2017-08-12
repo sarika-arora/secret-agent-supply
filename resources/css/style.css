@@ -4,7 +4,6 @@ html {
 
 body {
   font-family: Helvetica, sans-serif;
-  color: white;
 }
 
 header {
@@ -13,13 +12,12 @@ header {
   background-color: black;
   width: 100%;
   position: fixed;
+  color: white;
 }
 
 .container {
   width: 960px;
-  margin: auto;
-  display: flex;
-
+  margin: 0 auto;
 }
 
 .logo {
@@ -30,7 +28,7 @@ header {
 
 }
 
-.container span {
+.company-name {
   height: 1rem;
   align-items: center;
   margin-top: 0.66rem;
@@ -43,7 +41,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
+  color: white;
 }
 
 .new-arrivals {
@@ -71,9 +69,11 @@ nav {
   display: flex;
   background-color: firebrick;
   padding: 0.75rem 0rem;
+  color: white;
 }
 
 nav .container {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -83,19 +83,19 @@ li {
 
 section {
   background-color: white;
+  padding-bottom: 3rem;
 }
 
 .products {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
-  width: 100%;
+  color: white;
 }
 
 .product {
-
   height: 15rem;
   width: 30%;
-  margin: 3rem 1.5rem;
+  margin: 3rem 0 0 0;
 }
 
 .product-image {
@@ -117,15 +117,36 @@ section {
   background-color: black;
   padding: 1rem;
   margin: 0;
-
-
+  color: white;
 }
+
+.business-info {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.info {
+  width: 35%
+}
+
+.title {
+  background-color: black;
+  display: block;
+  padding: 1rem 2rem;
+  color: white;
+  margin-bottom: 0.25rem;
+}
+
 
 footer {
-  height: 5rem;
+  display: flex;
+  align-items: center;
+  height: 6rem;
   background-color: black;
+  color: white;
 }
 
-footer span {
+.copyright {
   text-align: left;
 }
