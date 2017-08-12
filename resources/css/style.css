@@ -22,7 +22,7 @@ header {
 
 }
 
-.container img {
+.logo {
   margin-top: 0.33rem;
   height: 1.5rem;
   margin-left: 0.5rem;
@@ -79,6 +79,46 @@ nav .container {
 
 li {
   display: inline;
+}
+
+section {
+  background-color: white;
+}
+
+.products {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.product {
+
+  height: 15rem;
+  width: 30%;
+  margin: 3rem 1.5rem;
+}
+
+.product-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid black;
+  padding: 2rem;
+  height: 9rem;
+}
+
+.product-image img {
+  max-width: 9rem;
+}
+
+.product-description {
+  display: block;
+  text-align: center;
+  background-color: black;
+  padding: 1rem;
+  margin: 0;
+
+
 }
 
 footer {
