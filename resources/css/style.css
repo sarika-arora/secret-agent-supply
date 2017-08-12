@@ -150,3 +150,98 @@ footer {
 .copyright {
   text-align: left;
 }
+
+@media only screen and (max-width: 1024px) {
+
+  html {
+    font-size: 16px;
+  }
+
+  .mobile-nav.container {
+    display: block;
+    text-align: center;
+  }
+
+  nav .container {
+    display: none;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .info {
+    width: 35%
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .mobile-nav.container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+  .container {
+    width: 470px;
+  }
+
+  main {
+    height: 15rem;
+  }
+
+  nav {
+    position: relative;
+  }
+
+  .new-arrivals {
+    top: 10rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    position: relative;
+    height: 5rem;
+    width: 100%
+  }
+
+  .new-arrivals h4 {
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+
+  .new-arrivals h1 {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .business-info {
+    display: block;
+
+  }
+
+  .info {
+    width: 90%;
+    margin: 1.1rem auto;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
