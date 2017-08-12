@@ -13,6 +13,7 @@ header {
   width: 100%;
   position: fixed;
   color: white;
+  z-index: 10;
 }
 
 .container {
@@ -42,6 +43,7 @@ main {
   background-size: cover;
   background-position: center;
   color: white;
+  z-index: 5;
 }
 
 .new-arrivals {
